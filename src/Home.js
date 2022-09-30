@@ -1,6 +1,6 @@
-import React from "react";
-import "./Home.css";
-import Product from "./Product";
+import React from 'react';
+import './Home.css';
+import Product from './Product';
 
 function Home() {
   return (
@@ -13,6 +13,7 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id="12345"
             title="The Lean Startup: How Constant
             Innovation Creates Radically Successful
             Businesses Paperback"
